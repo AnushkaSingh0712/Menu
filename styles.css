@@ -1,0 +1,139 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+
+header {
+    background: #ff5733;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover, .active {
+    background: #ff9800;
+    border-radius: 5px;
+}
+
+div.pic{
+    padding: 0px;
+    margin:0px;
+}
+
+.pic {
+    margin: 0;
+    padding: 0;
+    width: 100%; 
+}
+
+.pic img {
+    display: block; 
+    width: 100%;
+    height: 375px; 
+    margin: 0;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #ff5733, #ff9800);
+    color: white;
+}
+
+.hero h2 {
+    font-size: 40px;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: white;
+    color: #ff5733;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.hero .btn:hover {
+    background: #ff9800;
+    color: white;
+}
+
+.scroll-container{
+   display:flex;
+    overflow:hidden;
+    gap:10px;
+    animation:scroll-left 20s linear infinite;
+}
+.scroll-container img {
+    display:inline-block;
+    width:200px;
+    height:auto;
+    margin-left:5px;
+} 
+
+
+.offer{
+    border:35px solid #ff9800;
+    background-color: #ff9800;
+    text-align: center;
+    font-size:xx-large;
+}
+
+.menu-grid img{
+    display: block; 
+    width: 25%;
+    height: 25%; 
+    margin-left:37%;
+}
+
+.our{
+    text-align: center;
+    text-decoration: underline;
+}
+.mh3{
+   text-align: center;
+}
+
+.con{
+   color:rgb(240, 37, 37);
+   text-decoration: underline;
+   padding-left: 3%;
+}
+.cont{
+    color:rgb(17, 16, 16);
+    padding-left:4%;
+}
+.feedback{
+    text-align: center;
+    font-size: x-large;
+    text-decoration:underline
+}
+.form{
+    text-align: center;
+}
